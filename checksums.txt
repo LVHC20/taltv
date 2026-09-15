@@ -1,0 +1,16 @@
+# TalTV — checksums of the files this site serves
+#
+# What this proves: the file your browser ran is the file that was published.
+# What it does NOT prove: that the code itself is honest. The source is not
+# published, so nobody can verify what it does. See the architecture doc, 6.5.
+#
+# Verify:  shasum -a 256 <file>   and compare.
+# Built:   2026-09-15T07:20:49Z
+
+8c0d56a878ce1dd5633a0327d71397680a222634eaebc7954d25107c74ec2bdf  assets/epg-worker-D8oXsFLc.js
+a5b2a96a0248992cd29c025b1fcbbc687a93bde16e6b4acfd30a7c390e1b38d7  assets/hls-Sepfh0NE.js
+abb9e9628a5e03d1c1014367ae4156fe1bbfc153e42e7f04ccd147c74a9459b0  assets/index-CrntHqV0.css
+dc846dc8923720ff1c41cdf38e367500f53ef6822983e082136801d9814c76a9  assets/index-JZvW50lU.js
+9ce95dca2e2833656aaace1066ebab96d03143c0d3de2565aba3ce12985e32be  assets/mpegts-D_Lobsi-.js
+2e7f06d804fa84675272c732bbf7fdae460223a0e9cb5ed7de60e0007a40d88d  free.m3u
+865ac8af714a32d92b0ceb0170657fe5543058ab1f7a558a441f84da2a4f8a0d  index.html
