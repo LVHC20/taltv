@@ -1,0 +1,28 @@
+#EXTM3U
+#
+# TalTV's free channel list — ships EMPTY on purpose.
+#
+# This file exists so a first-time visitor with no IPTV subscription still
+# has something to try, and so a viewer whose own provider a browser cannot
+# reach (docs/design/product-architecture.md §3.1, §9.2) has one playlist
+# that can never be CORS-blocked: this one, served from the app's own
+# origin rather than fetched across the network.
+#
+# Two rules, from docs/design/product-architecture.md §9.3 and §14, and
+# they are why there are no channel lines below:
+#
+#   1. Curated by the owner, one entry at a time — never generated,
+#      refreshed, or topped up from a community-maintained index. "Free to
+#      watch" and "licensed for redistribution" are not the same claim, and
+#      a community list mixes both without telling you which is which.
+#   2. Every entry is one the owner can personally stand behind as
+#      published by its own broadcaster for public viewing. §14 lists
+#      "which free channels the owner can stand behind" as a decision that
+#      needs a lawyer's eye, not an engineer's, before the first line goes
+#      in.
+#
+# So: this file stays exactly like this — a header and this comment, and
+# nothing a parser reads as a channel — until the owner has done that
+# review and adds entries by hand. Do not fill it from a scraped or
+# community-maintained playlist, however tempting a shortcut that looks
+# like. That is the one thing this file must never become.
